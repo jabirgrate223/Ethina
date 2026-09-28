@@ -1,5 +1,5 @@
 import './styles.css';
-
+import('./cloud.js');
 const founder = 'Israt Jahan Ethina';
 const email = 'ij8283707@gmail.com';
 const phone = '+8801779923680';
