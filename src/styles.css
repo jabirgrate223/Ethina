@@ -14,3 +14,23 @@
 .questionnaire-section{padding:105px 10%;background:#0d100e;border-top:1px solid #202820}.questionnaire-card{background:#171e17;border:1px solid #2c392d;border-radius:6px;padding:30px;box-shadow:0 18px 45px #0003}.questionnaire-head{display:flex;align-items:start;justify-content:space-between;border-bottom:1px solid #2b362c;padding-bottom:22px;margin-bottom:25px}.questionnaire-head h3{font-size:20px;margin:11px 0 0}.questionnaire-lock{font:9px var(--mono);color:#9dcc5f;border:1px solid #405536;border-radius:20px;padding:8px 11px}.questionnaire-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:21px 14px}.questionnaire-grid label{display:block;color:#a7b1a6;font-size:10px;line-height:1.5}.questionnaire-grid input,.questionnaire-grid select{display:block;width:100%;height:45px;margin-top:8px;background:#101510;border:1px solid #344035;border-radius:3px;color:#e9f1e5;padding:0 12px;outline:0;font-size:12px}.questionnaire-grid input::placeholder{color:#687469}.questionnaire-grid input:focus,.questionnaire-grid select:focus{border-color:var(--lime)}.questionnaire-grid select{appearance:none;background-image:linear-gradient(45deg,transparent 50%,#9aa79a 50%),linear-gradient(135deg,#9aa79a 50%,transparent 50%);background-position:calc(100% - 16px) 19px,calc(100% - 12px) 19px;background-size:4px 4px,4px 4px;background-repeat:no-repeat}.questionnaire-input{height:45px;display:flex;align-items:center;margin-top:8px;background:#101510;border:1px solid #344035;border-radius:3px;padding:0 12px;gap:8px}.questionnaire-input:focus-within{border-color:var(--lime)}.questionnaire-input input{height:41px;margin:0;border:0;padding:0;background:transparent}.questionnaire-input span{font:10px var(--mono);color:#798679}.questionnaire-input span:last-child{margin-left:auto}.questionnaire-footer{border-top:1px solid #2b362c;margin-top:28px;padding-top:22px;display:flex;align-items:center;justify-content:space-between}.questionnaire-footer p{font-size:10px;color:#869286;margin:0}.questionnaire-footer p span{color:var(--lime);margin-right:7px}.questionnaire-success{display:none;margin-top:18px;border:1px solid #49653b;background:#1e2c1c;color:#b8e97b;padding:14px;border-radius:3px;font-size:11px}.questionnaire-success.show{display:flex;justify-content:space-between;gap:12px}.questionnaire-success span{color:#8ea384}
 @media(max-width:900px){.questionnaire-section{padding:75px 25px}.questionnaire-grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:600px){.questionnaire-section{padding:67px 20px}.questionnaire-card{padding:18px 15px}.questionnaire-head{display:block}.questionnaire-lock{display:inline-block;margin-top:14px}.questionnaire-head h3{font-size:18px}.questionnaire-grid{grid-template-columns:1fr;gap:17px}.questionnaire-footer{display:block}.questionnaire-footer p{margin-bottom:17px}.questionnaire-footer .button{width:100%}.questionnaire-success.show{display:block}.questionnaire-success span{display:block;margin-top:7px}}
+
+.hero-actions button.button{border:0;cursor:pointer}
+.loans-section{padding:105px 10%;background:#0d100e;border-top:1px solid #202820}.loans-section[hidden]{display:none}
+.loans-section h2{font-size:43px;line-height:1.12;letter-spacing:-2.2px;margin:17px 0 0}
+.loan-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;align-items:start}
+.loan-card{background:#131914;border:1px solid #273129;border-radius:5px;padding:26px;display:flex;flex-direction:column}
+.loan-tag{font:9px var(--mono);letter-spacing:.8px;color:#9dcc5f}
+.loan-card h3{font-size:22px;margin:12px 0 10px}
+.loan-intro{color:#93a093;font-size:12px;line-height:1.7;margin-bottom:18px}
+.loan-card dl{margin:0;border-top:1px solid #2a362b}
+.loan-card dl div{padding:11px 0;border-bottom:1px solid #2a362b}
+.loan-card dt{font-size:10px;color:#7d897d;margin-bottom:4px}
+.loan-card dd{margin:0;font-size:12px;line-height:1.55;color:#e3ebe0}
+.loan-note{margin:16px 0 0;padding:11px 12px;border:1px solid #4a3f22;background:#1d1a10;color:#dcc27a;font-size:11px;line-height:1.6;border-radius:3px}
+.loan-cta{margin-top:20px;color:var(--lime);font-size:11px;font-weight:700}
+.loan-cta span{margin-left:5px}
+.loan-cta:focus-visible,.hero-actions button.button:focus-visible{outline:2px solid var(--lime);outline-offset:3px}
+@media(max-width:900px){.loans-section{padding:75px 25px}.loan-grid{grid-template-columns:1fr}.loans-section h2{font-size:38px}}
+@media(max-width:600px){.loans-section{padding:67px 20px}.loans-section h2{font-size:36px;letter-spacing:-1.8px}}
+@media(min-width:901px) and (max-width:1100px){.loan-grid{grid-template-columns:1fr}}
