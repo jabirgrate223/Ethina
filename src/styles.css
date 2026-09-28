@@ -47,3 +47,19 @@
 .loan-actions .loan-cta{margin-top:0}
 .loan-actions button.button{border:0;cursor:pointer}
 @media(max-width:900px){.top-actions{display:flex;margin-left:auto;gap:0}.top-actions .icon-btn{display:none}.menu-btn{margin-left:12px}.qc-menu{right:0}}
+
+.red{color:#ff8f7a}
+.rev-note{margin:0;padding:2px 9px 12px;font-size:11px;color:#b8c7b5;border-bottom:1px solid #293429}
+.rev-toolbar{display:flex;justify-content:space-between;align-items:center;margin:22px 0 14px;font-size:11px;color:#7f8b7f}
+.rev-toolbar select,.qc-notes{background:#101510;border:1px solid #344035;border-radius:3px;color:#e9f1e5;padding:10px 12px;font:inherit;font-size:12px}
+.rev-list{display:grid;gap:12px}
+.rev-card{border:1px solid #2a362b;background:#192119;border-radius:5px;padding:20px}
+.rev-card>header{display:flex;justify-content:space-between;gap:12px;align-items:start;padding-bottom:14px;border-bottom:1px solid #2a362b}
+.rev-card header strong{display:block;font-size:15px}.rev-card header small{color:#8a968a;font-size:11px}
+.rev-card dl{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:16px 0}
+.rev-card dt{font:9px var(--mono);color:#7a877a;margin-bottom:4px}.rev-card dd{margin:0;font-size:12px;word-break:break-word}
+.rev-controls{display:grid;grid-template-columns:190px 1fr auto;gap:10px;align-items:start}
+.qc-notes{min-height:44px;resize:vertical;width:100%}
+.qc-saved{grid-column:1/-1;font-size:11px;color:#a8db63;min-height:1em}
+.rev-controls .qc-status{height:44px}
+@media(max-width:900px){.rev-card dl{grid-template-columns:1fr 1fr}.rev-controls{grid-template-columns:1fr}}
